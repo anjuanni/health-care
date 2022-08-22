@@ -2,6 +2,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+/*  first part css */
 h1 {
     font-weight: 800;
     letter-spacing: 0.1em;
@@ -36,6 +37,7 @@ p {
     padding-top: 50px;
 }
 
+/* about section css */
 .about-section {
     width: 100%;
     height: 500px;
@@ -48,10 +50,47 @@ p {
     width: 45%;
     padding-left: 80px;
     padding-top: 80px;
+    overflow: hidden;
 }
 
 
 .about-description {
     width: 60%;
-    padding-top: 100px;
+    padding-top: 110px;
+    margin-right: 80px;
+}
+
+/* third part css */
+.recipe-introduction {
+    text-align: center;
+    width: 450px;
+    margin: 0 auto;
+}
+
+.cards {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card {
+    border: 1px solid black;
+    width: 320px;
+    height: 430px;
+}
+
+.card-image img {
+    width: 90%;
+    padding-left: 20px;
+}
+
+.card-description {
+    width: 90%;
+    padding-top: 0;
+    padding-left: 20px;
+}
+
+.card-description p {
+    font-size: 12px;
+
 }
